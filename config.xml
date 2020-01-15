@@ -116,5 +116,7 @@
 
     <allow-navigation href="http://localhost/*" />
     <allow-navigation href="https://horseinsideout.com/*" />
+    <allow-navigation href="https://accounts.google.com/*" />
+    
 
 </widget>
