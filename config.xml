@@ -4,8 +4,8 @@
     <description>
         This app is for displaying the kiosk versions of the horseinsideout.com booking site
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        Adobe PhoneGap Team
+    <author email="mail@jesperlyng.dk" href="http://jesperlyng.dk">
+        Jesper Lyng Michelsen
     </author>
     <hook src="resources/script/before-test-runner.js" type="before_prepare" />
     <hook src="resources/script/after-test-runner.js" type="after_prepare" />
