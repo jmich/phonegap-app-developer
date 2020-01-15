@@ -17,6 +17,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <access origin="http://localhost/*" />
     <access origin="https://horseinsideout.com/*" />
+    <access origin="https://accounts.google.com/*" />
     <access origin="https://europe-west2-horseinsideout.cloudfunctions.net/graphql" />
     <content src="index.html" />
     <!--
@@ -72,9 +73,10 @@
     
     <engine name="ios" spec="^4.5.3" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
-   <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
+   <!-- <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
         <variable name="BLUETOOTH_USAGE_DESCRIPTION" value="Bluetooth development purposes" />
     </plugin>
+-->
     <plugin name="cordova-plugin-camera" spec="^3.0.0">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" " />
