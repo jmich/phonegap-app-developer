@@ -22,7 +22,7 @@
      <platform name="windows">
     </platform>
     <platform name="ios">
-        <preference name="Orientation" value="portrait" />
+        <preference name="Orientation" value="landscape" />
         <preference name="AutoHideSplashScreen" value="true" />
         <!-- <icon height="167" src="resources/icon/ios/icon-83.5@2x.png" width="167" />
         <icon height="76" src="resources/icon/ios/icon-76.png" width="76" />
